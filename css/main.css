@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.banner {
+  position: relative;
+}
+.img-flex {
+  padding: 0 1rem;
+  position: absolute;
+  bottom: 1rem;
+}
+
+h1 {
+  font-size: 4rem;
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+}
